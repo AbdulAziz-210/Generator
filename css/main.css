@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+.site-top-header{
+    margin-top: 26px;
+}
+.top-header{
+    margin-bottom: 55px;
+}
+.top-header__content{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 153px;
+    gap: 20px;
+
+}
+.top-header__content > img{
+    gap: 0;
+}
+.bottom-header, .bottom-header__link{
+    display: flex;
+    align-items: center;
+}
+/* /////// */
+
+
+.bottom-header{
+    margin: auto;
+}
+.bottom-header__link > span{
+    color: #333;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.navbar__list, .navbar__item > a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first > a{
+    margin-left: 136px;
+}
+.navbar__item{
+    margin-left: 46px;
+}
+.navbar__item > a{
+    color: #333;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.background-change{
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    background: #4762FF;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.background-change:hover > a{
+    border-color: #4762FF;
+    color: #b40000;
+    background-color: transparent;
+}
+.background-change > a{
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.backgrount-change ~ a:hover{
+    color: #4762FF;
+    background-color: transparent;
+}
+.navbar__item a {
+
+}
+.search-item{
+    display: flex;
+    margin: 0 0 0 96.5px;
+}
+.search-item > img{
+    margin-right: 8px;
+}
+
+
+
+/* /////// */
+
+.intro-section{
+    margin-top: 29px;
+}
+.intro{
+    position: relative;
+    background-image: url("../image/background.jpg");
+    width: 1250px;
+    height: 566px;
+}
+.intro__content{
+    display: flex;
+}
+.content-folder{
+    width: 440px;
+    margin: 107px 460px 0 165px;
+}
+.folder__title{
+    margin-bottom: 16px;
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.folder__text{
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.80);
+    font-feature-settings: 'liga' off;
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.folder__link{
+    padding: 15px 30px 15px 31px;
+    border-radius: 8px;
+    background: #4762FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.folder__link:hover{
+    border-color: #4762FF;
+    color: #4762FF;
+    background-color: transparent;
+}
+.folder__link:active{
+    background-color: transparent;
+    color: #FFF;
+    border: 3px solid #4762FF
+}
+
+.arrow__image{
+    position: absolute;
+    display: flex;
+    top: 228px;
+    right: 91px;
+}
+.telephone{
+    position: absolute;
+    bottom: 60px;
+    right: 141px;
+
+    width: 52px;
+    height: 52px;
+}
+.line__img{
+    position: absolute;
+    bottom: 30px;
+    left: 550px;
+}
+.line__img2{
+    position: absolute;
+    bottom: 30px;
+    left: 670px;
+}
+.line__img3{
+    position: absolute;
+    bottom: 30px;
+    left: 790px;
+}
+/* About */
+
+
+.about-section{
+    margin: 68px 0 76px 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about__content{
+    display: flex;
+}
+.about__content > img{
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+}
+.about__text{
+    position: relative;
+    width: 567px;
+    height: 238px;
+
+    color: rgba(51, 51, 51, 0.80);
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about__title{
+    color: #333;
+    font-feature-settings: 'liga' off;
+    font-family: Helvetica Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about__link{
+    position: absolute;
+    top: 342px;
+    left: 331px;
+    padding: 15px 48px;
+    background-color: #4762FF;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 700;
+}
+.about__link:hover{
+    border-color: #4762FF;
+    background-color: transparent;
+    color: #4762FF;
+}
+.about__link:active{
+    background-color: transparent;
+    color: #4762FF;
+    border: 3px solid #4762FF
+}
+
+/* Catalog secrtion */
+
+.catalog__title{
+    color: #333;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Helvetica Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.catalog__item > strong{
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.catalog__list{
+    margin-bottom: 65px;
+    display: flex;
+}
+.catalog__item > h3{
+    margin-bottom: 5px;
+}
+.catalog__item + .catalog__item{
+    margin-left: 26px;
+}
+.catalog__item > p{
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #5C5C5C;
+}
+.catalog__item > span{
+    color: #858585;
+}
+.catalog__item-link{
+    margin-top: 10px;
+    padding: 9px 61px 10px 61px;
+    border-radius: 8px;
+    background: #4762FF;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+.catalog__item-link:hover{
+    color: #4762FF;
+    background-color: transparent;
+    border-color: #4762FF;
+}
+.catalog__item-link:active{
+    color: #4762FF;
+    background-color: transparent;
+    border: 3px solid #4762FF;
+}
+
+
